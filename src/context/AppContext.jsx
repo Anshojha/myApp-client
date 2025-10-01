@@ -26,7 +26,7 @@ export const AppContextProvider = ({ children }) => {
   const fetchSeller = async () => {
     try {
       const {data} =await axios.get('/api/seller/is-auth');
-      // console.log(data)
+      console.log(data)
       if(data.success) {
         setIsSeller(true)
       }

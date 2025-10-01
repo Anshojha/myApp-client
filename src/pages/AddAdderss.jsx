@@ -24,7 +24,6 @@ const AddAdderss = () => {
     lastName: "",
     email: "",
     street: "",
-    address: "",
     city: "",
     state: "",
     country: "",
